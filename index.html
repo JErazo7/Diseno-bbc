@@ -3,253 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>BBC News</title>
-    <style type="text/css">
-      #topbar
-      {
-        width: 990px;
-        background-color: #FFFFFF;
-        height: 40px;
-        margin: auto;
-      }
-      body
-      {
-        margin: 0;
-        font-family:  Helvetica, Arial, sans-serif;
-      }
-      #logo
-      {
-        float: left;
-        margin-top: 8px;
-        width: 84px;
-        height: 24px;
-        margin-right: 8px;
-      }
-      .topbar-section
-      {
-        float: left;
-        border-left: 1px #B5B5B5 solid;
-        height: 100%;
-      }
-
-      #signin-imagen
-      {
-        width: 33px;
-        margin: 5px 0.7px 5px 8px ;
-        float: left;
-      }
-      #signin-texto
-      {
-        font-weight: bold;
-        color: #393333;
-        font-size: 83%;
-        position: relative;
-        top: 11px;
-        padding-right: 81px;
-      }
-      .topbar-menu
-      {
-        font-weight: bold;
-        color: #393333;
-        font-size: 83%;
-        padding: 13px 12.4px 0px 11.6px;
-        height: 27px;
-      }
-      #flecha-imagen
-      {
-        float: right;;
-        width: 20px;
-        margin-left: 66px;
-        margin-right: -8px;
-        margin-top: 2px;
-      }
-      #search-box
-      {
-        background-color: #E4E4E4;
-        border: none;
-        font-weight: bold;
-        color: #393333;
-        font-size: 83%;
-        width: 170px;
-        height: 21px;
-        float: left;
-        margin: 8px 10px;
-        padding-left: 5px;
-      }
-
-      #image-lupa
-      {
-        float: left;
-        margin-left: -15px;
-        margin-top: 8px;
-        width: 30px;
-      }
-      .clear
-      {
-        clear:both;
-      }
-      #menu-bar-container
-      {
-        background-color: #BB1919;
-        width:100%;
-        height:56px;
-        border-top: 1px solid #CCCCCC;
-      }
-      #menu-bar
-      {
-        width: 990px;
-        margin:  auto;
-      }
-      #image-news
-      {
-        padding-top: 13px;
-      }
-      #menu-bar-container-2
-      {
-        background-color: #A91717;
-        width:100%;
-        height:36px;
-      }
-      #menu-bar-2
-      {
-        width: 1005px;
-        margin:  auto;
-      }
-      #menu-bar-2 a
-      {
-        color: white;
-        text-decoration: none;
-        font-size: 14px;
-        border-right: 1px solid #B84545;
-        position:relative;
-        top: 10px;
-        padding: 0 12px 0 7.9px;
-      }
-      #menu-bar-2 a:hover
-      {
-        text-decoration: underline;
-      }
-      .no-border
-      {
-        border: none !important;
-      }
-      #arrow
-      {
-        position: relative;
-        top: 1px;
-        left: 3px;
-      }
-      #menu-bar-3
-      {
-        width: 990px;
-        height: 35px;
-        margin: 0 auto;
-      }
-      #menu-bar-3 h2
-      {
-        font-weight: normal;
-        border-bottom: 3px solid #BB1919;
-        width: 102px;
-        color: #404040;
-        font-size: 20px;
-        position: relative;
-        top: -8px;
-      }
-      #page-container
-      {
-        width: 990px;
-        margin: auto;
-      }
-      #main-article
-      {
-        width: 641px;
-        height: 293px;
-        float: left;
-        border-bottom: 1px solid #DBDBDB;
-      }
-      #main-article h1 a
-      {
-        font-size: 31px;
-        text-decoration: none;
-        position: relative;
-        top: -16px;
-        color: #333339;
-      }
-      #main-article h1 a:hover
-      {
-        color: #1170C5;
-      }
-      #article-sumary
-      {
-        float: left;
-        color: #5A5A5A;
-        width: 230px;
-        font-size: 14px;
-        line-height: 130%;
-        position: relative;
-        top: -26px;
-
-      }
-      #image-clock
-      {
-        position: relative;
-        top: 5px;
-      }
-      .lista-informacion
-      {
-        font-size: 13px;
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        position: relative;
-        left: -10px;
-        top: 4px;
-      }
-      .lista-informacion li
-      {
-        display: inline;
-        padding-right: 3px;
-        padding-left: 5px;
-        border-right: 1px solid #DCDCDC;
-      }
-      .lista-informacion a
-      {
-        color: #A91717;
-        text-decoration: none;
-      }
-      .lista-informacion a:hover
-      {
-        color: #1167AD;
-      }
-      #imagen-principal
-      {
-        margin-left: 15px;
-        width: 395px;
-        position: relative;
-        top: -26px;
-      }
-      #article-hr
-      {
-        border-top: 1px solid #BB1919;
-        width: 38px;
-        position: relative;
-        top: 6px;
-      }
-      .article-link{
-        text-decoration: none;
-        color: black;
-        font-size: 13.5px;
-      }
-      #infomation a:hover
-      {
-        color: #1167AD;
-      }
-      #infomation p
-      {
-        margin-bottom: -8px;
-      }
-
-
-    </style>
+    <link rel="stylesheet" href="bbc.css">
   </head>
   <body>
     <div id="topbar">
@@ -332,9 +86,34 @@
           </div>
         </div>
         <img src="images/principal.jpg" id="imagen-principal">
+      </div>
+      <div class="clear">
 
       </div>
+      <div id="watch-listen">
+        <h2>Watch/Listen</h2>
+        <img class="article-side-image"src="images/watch-listen1.png"  >
+        <a class="watch-listen-link"href="http://www.bbc.com/news/technology-39131587">Tech turning <br> skyscrapers into adverts</a>
+        <ul class="lista-informacion">
+          <li><img src="images/clock.png" id="image-clock">18 March 2017 </li>
+          <li class="no-border"><a href="#">&nbsp;Technology</a></li>
 
+        </ul>
+        <br><br>
+        <img class="article-side-image"src="images/watch-listen2.png"  >
+        <a class="watch-listen-link"href="http://www.bbc.com/news/technology-39350280">Is the UK Europe's best hub for tech workers?</a>
+        <ul class="lista-informacion">
+          <li><img src="images/clock.png" id="image-clock">18 March 2017 </li>
+          <li class="no-border"><a href="#">&nbsp;Technology</a></li>
+        </ul>
+        <br><br>
+        <img class="article-side-image"src="images/watch-listen3.png"  >
+        <a class="watch-listen-link"href="http://www.bbc.com/news/technology-39303716">The company turning pollution into art</a>
+        <ul class="lista-informacion">
+          <li><img src="images/clock.png" id="image-clock">18 March 2017 </li>
+          <li class="no-border"><a href="#">&nbsp;Technology</a></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
